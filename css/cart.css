@@ -1,0 +1,129 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+body{
+    height: 200vh;
+   
+    background-image: url(../images/cartimg3.jpg);
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#maincont{
+    width:45%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 25px;
+    
+
+}
+.cartitem{
+  width:100%;
+  display:flex;
+  flex-direction: row; 
+  border-bottom: solid 0.05px rgb(185, 181, 181);
+}
+.cart-image{
+    width: 30%
+}
+.cart-image img{
+    width: 70%;
+    height: 70%;
+}
+header
+{
+    
+    width:100%;
+     display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+   
+}
+.iconcontainer{
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+   
+    margin-bottom: 15px;
+    padding-right: 40px;
+    gap: 15px;
+   
+    width: 90%;
+    margin-left: 105px;
+    
+    
+}
+.iconcontainer i{
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+}
+h2,a{
+    font-family: "Lato",sans-serif;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+nav a{
+    display: block;
+    color:rgb(0, 0, 0);
+    font-size: larger;
+}
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: #572222;
+
+}
+nav{
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+   
+    padding-left: 20px;
+    
+   
+}
+h3{
+    margin: 6px;
+}
+p{
+    margin: 10px;
+}
+
+
+
+.remove-from-cart{
+    padding:5px;
+    background-color: rgb(57, 52, 52);
+    color: aliceblue;
+    border-radius:5px ;
+    text-transform: none;
+}
+#clear-cart{
+   margin-top: 10px;
+   padding:5px;
+   background-color: rgb(57, 52, 52);
+   color: aliceblue;
+   border-radius:5px ;
+   text-transform: none;
+   transform: translateX(220px);
+}
+
+
+
